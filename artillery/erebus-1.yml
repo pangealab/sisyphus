@@ -1,0 +1,14 @@
+config:
+  target: "http://stage-erebus-app.azurewebsites.net"
+  phases:
+  - name: "short-burst"
+    duration: 1
+    arrivalRate: 1
+scenarios:
+  - name: "get-items"
+    flow:
+    # - think: {{ $randomNumber(1,10) }}
+    - get:
+        url: "/api/items"
+        qs:
+          item: "{{ $randomNumber(1,1000000) }}"
