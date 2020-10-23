@@ -1,0 +1,26 @@
+{
+  "name": "sisyphus",
+  "version": "1.0.0",
+  "description": "Lambda Serverless testing harness for Furball Apps with NodeJS",
+  "homepage": "https://github.com/pangealab/sisyphus#readme",
+  "main": "handler.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pangealab/sisyphus.git"
+  },
+  "author": "anthonyangelo@yahoo.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pangealab/sisyphus/issues"
+  },
+  "dependencies": {
+    "loadtest": "^5.1.0"
+  },
+  "devDependencies": {}
+}
