@@ -1,4 +1,4 @@
 ![Intro](./docs/sisyphus.png)
 
-Artillery.io Lambda Serverless testing harness for Furball Apps
+Lambda Serverless testing harness for Furball Apps with NodeJS
 
