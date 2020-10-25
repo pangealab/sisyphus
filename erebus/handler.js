@@ -9,7 +9,7 @@ module.exports.loadtest = (event, context) => {
     method: 'GET',
     concurrency: 1,
     requestsPerSecond: 1,
-    maxSeconds: 13,
+    maxSeconds: 59,
     body:'',
     url: "http://stage-erebus-app.azurewebsites.net",
     requestGenerator: requestGenerator
