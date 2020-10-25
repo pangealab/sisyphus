@@ -9,12 +9,13 @@ module.exports.loadtest = (event, context) => {
     method: 'GET',
     concurrency: 1,
     requestsPerSecond: 1,
-    maxSeconds: 60,
+    maxSeconds: 13,
     body:'',
     url: "http://stage-erebus-app.azurewebsites.net",
     requestGenerator: requestGenerator
   };
   
+  // Generate Request
   function requestGenerator(params, options, client, callback) {
     options.headers['Content-Type'] = 'application/json';
     options.path = '/api/items/' + (Math.floor(Math.random() * 100) + 1);
