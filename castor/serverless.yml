@@ -1,6 +1,6 @@
 # Serverless Config
 
-service: erebus
+service: castor
 frameworkVersion: '2'
 
 provider:
