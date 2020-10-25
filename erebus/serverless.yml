@@ -1,0 +1,18 @@
+# Serverless Config
+
+service: erebus
+frameworkVersion: '2'
+
+provider:
+  name: aws
+  runtime: nodejs12.x
+  region: us-east-2
+
+functions:
+  loadtest :
+    handler: handler.loadtest
+    # provisionedConcurrency: 1 
+    # reservedConcurrency: 0
+    events:
+      - schedule: rate(1 minute)
+
