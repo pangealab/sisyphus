@@ -12,7 +12,7 @@ functions:
   loadtest :
     handler: handler.loadtest
     # provisionedConcurrency: 1 
-    # reservedConcurrency: 0
+    # reservedConcurrency: 1
     events:
       - schedule: rate(1 minute)
 
