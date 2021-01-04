@@ -11,7 +11,7 @@ module.exports.loadtest = (event, context) => {
     requestsPerSecond: 1,
     maxSeconds: 59,
     body:'',
-    url: "http://stage-castor-app.azurewebsites.net",
+    url: "https://aangelo-castor-app.azurewebsites.net",
     // url: "https://enwh56372d9x.x.pipedream.net",   requestGenerator: requestGenerator
   };
   
